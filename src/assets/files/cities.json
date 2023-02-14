@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "name": "Bogotá",
+            "image": "Bogota.png"
+        },
+        {
+            "name": "Medellín",
+            "image": "Medellin.png"
+        },
+        {
+            "name": "Cali",
+            "image": "Cali.png"
+        }
+    ]
+}

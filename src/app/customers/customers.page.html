@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="permission">
+    <ion-item *ngFor="let user of users">
+      <ion-label>
+        <h2>{{user.name}}</h2>
+        <p>{{user.description}}</p>
+      </ion-label>
+      <ion-avatar slot="start">
+        <img alt="{{user.name}}" src="/assets/avatar/{{user.image}}" />
+      </ion-avatar>
+      
+    </ion-item>
+   
+  </ion-list>
+
+  <ion-label *ngIf="!permission">No tienes los permisos para ver los clientes</ion-label>
+</ion-content>

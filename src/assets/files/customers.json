@@ -1,0 +1,22 @@
+{
+    "data": [
+{
+    "name": "Han",
+    "status": "Look...Kid...",
+    "description": "Description 1",
+    "image": "avatar-han.png"
+
+},{
+    "name": "Luke",
+    "status": "Your thoughts betray you",
+    "description": "Description 2",
+    "image": "avatar-luke.png"
+
+},{
+    "name": "Leia",
+    "status": "You're my Only hope",
+    "description": "Decription 3",
+    "image": "avatar-leia.png"
+}
+    ]
+}
