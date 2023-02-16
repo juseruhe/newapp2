@@ -51,4 +51,12 @@ this.searchedUser = this.searchedUser.filter((user: any) => {
 
 }
 
+handleRefresh(event: any) {
+  this.getUsers()
+  setTimeout(() => {
+    // Any calls to load data go here
+    event.target.complete();
+  }, 2000);
+};
+
 }
